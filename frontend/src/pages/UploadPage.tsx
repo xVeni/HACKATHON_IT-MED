@@ -145,6 +145,7 @@ const UploadPage: React.FC = () => {
       
       dispatch(setMedicalData({
         points: result.points,
+        points_18: result.points_18,
         measurements: result.measurements,
         diagnosis: result.diagnosis,
         abnormalParameters: result.abnormal_parameters,

@@ -7,6 +7,7 @@ const API_URL = '/api';
 export interface UploadResponse {
   image: string;
   points: Point[];
+  points_18?: Point[];
   measurements: Measurements;
   diagnosis: Diagnosis;
   image_width: number;
